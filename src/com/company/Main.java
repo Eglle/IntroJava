@@ -98,10 +98,44 @@ public class Main {
         // long six = 6;
        // int intValue = (int)six;
 
-        double deciNumber = 6.8923232356;
-        System.out.println("Double value: " + deciNumber);
-        int truncatedValue = (int)deciNumber;
-        System.out.println("Integer version: " + truncatedValue);
+        //  double deciNumber = 6.8923232356;
+      //   System.out.println("Double value: " + deciNumber);
+      //  int truncatedValue = (int)deciNumber;
+      //  System.out.println("Integer version: " + truncatedValue);
+
+        boolean bool = true;
+        boolean loob = 8>5;
+
+        // A boolean is simply a statement of expression that results in true or false.
+        // Relational operators:
+        // > - greater than - if the value on the left is greater than the one on the right.
+        // < - less than - if the value on the left is less than the one on the right.
+        // == - equals to - if the value on the left is equal to the one on the right.
+        // >= - Greater than or equals to - if the value on the left is greater than or equal to the one on the right.
+        // <= - Less than or equals to - if the value on the left is less than or equal to the one on the right.
+
+        // System.out.println(5 == 9); // false
+        // System.out.println(9 <= 19); // true
+
+        // Logical operators:
+        // && - AND operator -
+        // System.out.println(5 < 8 && 8 < 3); // && only returns true if both expressions evaluates to true.
+
+        // || - OR operator -
+        // System.out.println(5 > 8 || 8 > 3); // || only returns false if both expressions evaluate to false.
+
+        // Task:
+        // Evaluate the following expression using relational and logical operators
+        // 1. Find out what happens when 6 is less than 9 and is compared to 9 being greater than 2. (AND)
+        // 2. Find out what happens when 5 is greater than 9 is compared to 8 less than 3. (OR)
+        // 3. Find out what happens when 8 is equal to 2 and 7 is less than 6. (AND)
+
+        System.out.println(6 < 9 && 9 > 2);
+        System.out.println(5 > 9 || 8 < 3);
+        System.out.println(8 == 2 && 7 < 6);
+
+
+
 
 
 
