@@ -27,7 +27,7 @@ public class Main {
         // classes
 
         // Variables and Datatypes
-        // Primitive values
+        // Numeric Primitive types
         // byte
         // short
         // int
@@ -35,7 +35,9 @@ public class Main {
         // float // has a max of 7 decimal places
         // double // has a max of 15 decimal places.
 
-        // char
+        // Non-numeric primitives
+        // char - characters
+        // boolean - true or false values
 
         // Complex Objects
         // Strings
@@ -49,8 +51,8 @@ public class Main {
         // A variable declaration is simply giving your variable a name and a data type.
         // A variable initialization is the point where you finally give that variable a value to start with.
 
-       float number; // variable declaration
-       number = 4; // variable initialization
+       // float number; // variable declaration
+       // number = 4; // variable initialization
 
         float value = 6; // variable declaration and initialization in one line.
 //        byte byteValue = 1;
@@ -65,15 +67,15 @@ public class Main {
 
         // Arithmetic Operators include:
         // + - Addition
-        System.out.println("Addition of number and value is: " + (number + value));
+        // System.out.println("Addition of number and value is: " + (number + value));
         // - - Subtraction
-        System.out.println("Subtraction of number and value is: " + (number - value));
+        // System.out.println("Subtraction of number and value is: " + (number - value));
         // / - Division
-        System.out.println("Division of number and value is: " + (number / value));
+       //  System.out.println("Division of number and value is: " + (number / value));
         // * - Multiplication
-        System.out.println("Multiplication of number and value is: " + (number * value));
+        // System.out.println("Multiplication of number and value is: " + (number * value));
         // % - Modulus (It divides the values and returns the remainder) e.g. 2 % 2 -> 0
-        System.out.println("Modulus of number and value is: " + (number % value));
+       //  System.out.println("Modulus of number and value is: " + (number % value));
 
         // = Assignment
 
@@ -82,6 +84,28 @@ public class Main {
 
         // Our first Java program
         System.out.println("Hello World!");
+
+        // Type conversation
+        // Java allows you to IMPLICITLY convert from a smaller data type to a bigger one.
+        // but not the other way round.
+        // For you to convert from bigger to smaller you must do it EXPLICITLY.This is called
+        // CASTING.
+        // smaller -> bigger
+       // int five = 5;
+       // long newValue = five;
+
+        // bigger -> smaller
+        // long six = 6;
+       // int intValue = (int)six;
+
+        double deciNumber = 6.8923232356;
+        System.out.println("Double value: " + deciNumber);
+        int truncatedValue = (int)deciNumber;
+        System.out.println("Integer version: " + truncatedValue);
+
+
+
+
 
     }
 }
